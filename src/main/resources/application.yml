@@ -1,0 +1,8 @@
+spring:
+  config:
+    import: optional:configserver:http://localhost:8888
+  application:
+    name: productos-service
+jwt:
+  secret: qgFvl69JV3AhS9Ku2o3kT3n+K9rDxBz1uFA3iFJ33zY=
+  expiration: 36000000
